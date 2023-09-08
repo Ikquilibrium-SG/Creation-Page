@@ -1,0 +1,50 @@
+body {
+    background: #bedfec;
+}
+
+/* Layout */
+.container {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto 0px;
+    border-radius: 0px 0px 20px 20px;
+    max-width: 340px;
+    padding: 0px 0px 30px;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* Typography */
+.name, .current-day, .time, .track, .link {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 0px;
+}
+
+h2, h3, a {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #535455;
+    text-decoration: underline;
+}
+
+p {
+    color: rgb(180, 176, 176);
+    padding: 0px;
+    margin: 10px 0px 0px;
+}
